@@ -1,0 +1,12 @@
+
+import React, { Component } from 'react'
+
+import { isEmail } from '@asepsetyawan/js-common-utils'
+
+class Example extends Component {
+  render () {
+    return (
+      {isEmail("asepsetyawan9@gmail.com") ? "Valid Email" : "Invalid Email"}
+    )
+  }
+}
